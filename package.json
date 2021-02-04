@@ -1,0 +1,50 @@
+{
+  "name": "@1dv022/examination-3",
+  "version": "1.3.0",
+  "homepage": "https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/",
+  "contributors": [
+    {
+      "name": "Johan Leitet",
+      "email": "johan.leitet@lnu.se"
+    },
+    {
+      "name": "John Häggerud",
+      "email": "john.haggerud@lnu.se"
+    },
+    {
+      "name": "Mats Loock",
+      "email": "mats.loock@lnu.se"
+    },
+    {
+      "name": "Jacob Lindehoff",
+      "email": "jacob.lindehoff@lnu.se"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1dv022/examination-3"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "*",
+    "file-loader": "*",
+    "standard": "*",
+    "standard-loader": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*",
+    "html-loader": "*",
+    "html-webpack-plugin": "*"
+  },
+  "bin": {},
+  "scripts": {
+    "debug": "webpack-dev-server",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  }
+}
