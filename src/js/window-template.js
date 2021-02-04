@@ -15,7 +15,7 @@ template.innerHTML = `
     }
 
     #window {
-      background-color: rgb(255, 255, 255, 0.5);
+      background-color: rgb(211, 153, 9);
       height: auto;
       width: auto;
       border-radius: 5px;

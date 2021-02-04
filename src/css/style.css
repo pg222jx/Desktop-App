@@ -1,9 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    margin: 0;
-    background-image: url('../image/books.jpeg');
-    background-size: 1500px;
-    height: 500px;
+    background-image: url('../image/library.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 }
